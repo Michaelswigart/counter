@@ -1,0 +1,32 @@
+/* put the h1 on top of the zero
+have the zero in the center and have the buttons right below the zero. background should be white and the border/text the color black. */
+.container {
+display: grid;
+
+};
+
+h1 {
+
+};
+
+#value {
+
+};
+
+.btn {
+
+};
+
+.decrease {
+
+};
+
+.rest {
+
+};
+
+.increase {
+
+};
+
+/* remember to have fun and take you time to learn the grid.*/
