@@ -11,11 +11,16 @@ have the zero in the center and have the buttons right below the zero. backgroun
 
 .container {
 display: flex;
-
+background-color: beige;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 930px;
 };
 
+
 h1 {
-font-size:larger;
+font-size: 2em;
 
 } 
 
@@ -29,12 +34,12 @@ span {
 };
 
 .button-container {
-
-};
+ 
+}
 
 /* the class decrease rest and increase are how to change the color and font */
 .decrease {
-   
+  
 };
 
 .rest {
