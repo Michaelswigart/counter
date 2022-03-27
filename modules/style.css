@@ -1,6 +1,3 @@
-/* put the h1 on top of the zero
-have the zero in the center and have the buttons right below the zero. background should be white and the border/text the color black. */
-
 *,
 ::after,
 ::before {
@@ -15,39 +12,26 @@ background-color: beige;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-height: 930px;
-};
-
+height: 920px;
+}
 
 h1 {
-font-size: 2em;
-
+font-size: 2.5em;
 } 
 
 span {
     font-size: 10em;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 300;
 }
 
-#value {
-
-};
-
-.button-container {
- 
+.decrease, .increase, .rest {
+  font-size: 1.9em;
+  padding: 20px;
+  border-radius: .3em;
+  color: black;
+  font-weight: 100;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color:slateblue;
+  opacity: .9;
 }
-
-/* the class decrease rest and increase are how to change the color and font */
-.decrease {
-  
-};
-
-.rest {
-
-};
-
-.increase {
-
-};
-
-/* remember to have fun and take you time to learn the grid.*/
